@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar.js';
-import CartWidget from './components/CartWidget.js';
+import ItemListContainer from './components/ItemListContainer.js';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header bg-amber-200">
         <Navbar />
-        <CartWidget />
+      <ItemListContainer />
       </header>
     </div>
   );
